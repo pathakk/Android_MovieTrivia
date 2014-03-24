@@ -1,0 +1,53 @@
+
+
+    <LinearLayout 
+ 		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SteelBlue">
+    
+   <TextView
+       android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width = "wrap_content"
+      	android:layout_height = "wrap_content"
+      	android:id="@+id/totalTaken"/>
+        
+       <TextView
+           android:gravity="center"
+            android:layout_marginTop="10dp"
+        android:layout_width = "wrap_content"
+      	android:layout_height = "wrap_content"
+      	android:id="@+id/totalQuestions"/>
+      <TextView
+          android:gravity="center"
+           android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalCorrect"/>
+     <TextView
+         android:gravity="center"
+          android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalWrong"/>
+      
+    <TextView
+        android:gravity="center"
+         android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/averageTime"/>
+    
+    <Button
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_main_screen"
+        android:onClick="goToMain"
+        android:background="@color/SlateGray"
+        android:layout_marginTop="30dp"/>
+	</LinearLayout>
+
+

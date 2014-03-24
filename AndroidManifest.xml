@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uci.movietrivia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.uci.movietrivia.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.uci.movietrivia.QuizActivty"
+            android:label="@string/title_activity_quiz_activty" >
+        </activity>
+        <activity
+            android:name="edu.uci.movietrivia.QuizActivity"
+            android:label="@string/title_activity_quiz" >
+        </activity>
+        <activity
+            android:name="edu.uci.movietrivia.EndQuiz"
+            android:label="@string/title_activity_end_quiz" >
+        </activity>
+        <activity
+            android:name="edu.uci.movietrivia.GameStats"
+            android:label="@string/title_activity_game_stats" >
+        </activity>
+    </application>
+
+</manifest>
